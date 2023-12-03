@@ -4,7 +4,7 @@
     "slug": "MAD_Lab_Manual",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/calc_app_icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/calc_app_icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.asad1111.MAD_Lab_Manual"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ba884e00-e083-4bb3-bad1-4d90f402e546"
+      }
     }
   }
 }
